@@ -1,0 +1,149 @@
+body {
+	font-family: 'Caudex', serif;
+	background-color: #dbd3d3ce;
+	color: #000;
+
+	
+}
+.block_one {
+	border: 1px solid #000;
+	display: flex;
+	margin: 20px;
+	background-color: #cfcbcbb2;
+
+}
+.img-responsive {
+	width: 480px;
+	padding: 20px;
+	padding-bottom: 0;
+}
+.title_main h1, h2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+.img_chorao {
+	float: left;
+	padding: 20px;
+}
+.img_chorao p {
+	font-size: small;
+	padding-left: 20px;
+}
+.text_main {
+	padding: 20px;
+	font-size: 20px;
+}
+
+.list_disc {
+	border: 1px solid #000;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+	margin: 20px;
+	font-size: medium;
+	background-color: #e9e6e6b2;
+	
+}
+.text_final h3 {
+	margin-left: 60px;
+}
+.text_final {
+	border: 1px solid #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	margin: 20px;
+	font-size: large;
+	background-color: #e9e6e6b2;
+}
+.end_page {
+	text-align: center;
+	font-size: smaller;
+	background-color: #e9e6e6b2;
+	margin: 20px;
+}
+
+.video_music {
+	margin: 0 auto;
+	display: block;
+}
+.back_img {
+	background-image: url(img/chorao2.jpg);
+	background-size: cover;
+
+}
+@media (max-width: 1000px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.block_one {
+		flex-direction: column;
+		
+	}
+	.img-responsive {
+		width: 580px;
+	
+	}
+	.img_chorao p {
+		font-size: small;
+		padding-left: 20px;
+	}
+	.list_disc {
+		flex-direction: column;
+	}
+	.video_music {
+		width: auto;
+	}
+}
+@media (min-width:600px) and (max-width:999px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.block_one {
+		flex-direction: column;
+		
+	}
+	.img-responsive {
+		width: 500px;
+	
+	}
+	.img_chorao p {
+		font-size: small;
+		padding-left: 20px;
+	}
+	.list_disc {
+		flex-direction: column;
+	}
+}
+@media(min-width: 300px)  and (max-width:599px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.block_one {
+		flex-direction: column;
+		
+	}
+	.img-responsive {
+		align-items: center;
+		width: 240px;
+		padding: 10px;
+		padding-bottom: 0;
+	
+	}
+	.img_chorao p {
+		font-size: small;
+		padding-left: 20px;
+	}
+	.list_disc {
+		flex-direction: column;
+	}
+
+}
