@@ -1,4 +1,4 @@
-<h1><a href="https://elena-in-code.github.io/Tribute-page/"><strong>Tribute Page to Chorão</strong></a></h1>
+<h1><a href="https://alan0170.github.io/tribute_page/"><strong>Tribute Page to Chorão</strong></a></h1>
 
 ![chora0_readme](https://user-images.githubusercontent.com/73854685/119743700-d7b47d80-be60-11eb-8cf1-b7a63f4c8264.png)
 
